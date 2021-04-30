@@ -26,6 +26,7 @@ let ListStyle = {
   alignItems: 'center',
   textAlign: 'center',
   justifyContent: 'center',
+  marginBottom: '3em',
 };
 
 export default Navigation;

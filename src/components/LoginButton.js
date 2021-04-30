@@ -14,7 +14,7 @@ const LoginButton = () => {
           color: '#fff',
           fontWeight: 'bold',
           fontFamily: 'sans-serif',
-          fontSize: '2.3rem',
+          fontSize: '1.6rem',
           padding: '1.5rem 3rem',
           border: '0',
           borderRadius: '.5em',

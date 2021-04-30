@@ -2,7 +2,6 @@ import './App.css';
 import LoginForm from './components/LoginForm';
 import Navigation from './components/Navigation';
 import Logo from './components/Logo';
-import LoginButton from './components/LoginButton';
 
 function App() {
   return (
@@ -10,8 +9,17 @@ function App() {
       <Logo />
 
       <Navigation />
-      <LoginForm />
-      <LoginButton />
+      <div
+        style={{
+          display: 'inline-block',
+          border: '2px solid white',
+          backgroundColor: '#c088b6',
+          borderRadius: '6px',
+          width: '400px',
+        }}
+      >
+        <LoginForm />
+      </div>
     </div>
   );
 }

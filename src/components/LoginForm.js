@@ -1,4 +1,5 @@
 import React from 'react';
+import LoginButton from './LoginButton';
 
 const LoginForm = () => {
   let showPassword = () => {
@@ -17,7 +18,7 @@ const LoginForm = () => {
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        height: '50vh',
+        height: '70vh',
       }}
     >
       <h3
@@ -67,6 +68,7 @@ const LoginForm = () => {
           onClick={showPassword}
         ></input>
       </div>
+      <LoginButton />
     </div>
   );
 };
